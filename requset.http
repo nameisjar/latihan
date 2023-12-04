@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "email": "n@gmail.com",
+    "name": "haiii"
+}
+
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/user/0e9c301b-ba3b-4d85-87e5-dba4e4cad22d
+
+###
+POST http://localhost:3000/api/user/0e9c301b-ba3b-4d85-87e5-dba4e4cad22d
+Content-Type: application/json
+
+{
+    "email": "n@gmail.com",
+    "name": "apa kabar"
+}
+
+###
+DELETE http://localhost:3000/api/user/0e9c301b-ba3b-4d85-87e5-dba4e4cad22d
